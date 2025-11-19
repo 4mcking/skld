@@ -1,3 +1,8 @@
+import impactTop from "../assets/impact-top.jpg";
+import impactLeft from "../assets/impact-left.jpg";
+import impactRight from "../assets/impact-right.jpg";
+import impactBottom from "../assets/impact-btm.jpg";
+
 export default function ImpactGrid() {
   return (
     <section className="py-6">
@@ -27,7 +32,7 @@ export default function ImpactGrid() {
 
             {/* row 1 col 2: top image */}
             <div className="overflow-hidden rounded-2xl ring-1 ring-black/20 min-h-[16rem] sm:min-h-[18rem] lg:min-h-[22rem]">
-              <img src="/src/assets/impact-top.jpg" alt="Team planning" className="w-full h-full object-cover" />
+              <img src={impactTop} alt="Team planning" className="w-full h-full object-cover" />
             </div>
 
             {/* row 1 col 3: card 02 */}
@@ -42,7 +47,7 @@ export default function ImpactGrid() {
 
             {/* row 2 col 1: left image (manufacturing) */}
             <div className="overflow-hidden rounded-2xl ring-1 ring-black/20 min-h-[16rem] sm:min-h-[18rem] lg:min-h-[22rem]">
-              <img src="/src/assets/impact-left.jpg" alt="Manufacturing floor" className="w-full h-full object-cover" />
+              <img src={impactLeft} alt="Manufacturing floor" className="w-full h-full object-cover" />
             </div>
 
             {/* row 2 col 2: center card 03 */}
@@ -57,7 +62,7 @@ export default function ImpactGrid() {
 
             {/* row 2 col 3: right image (handshake) */}
             <div className="overflow-hidden rounded-2xl ring-1 ring-black/20 min-h-[16rem] sm:min-h-[18rem] lg:min-h-[22rem]">
-              <img src="/src/assets/impact-right.jpg" alt="Handshake" className="w-full h-full object-cover" />
+              <img src={impactRight} alt="Handshake" className="w-full h-full object-cover" />
             </div>
 
             {/* row 3 col 1: card 04 */}
@@ -73,7 +78,7 @@ export default function ImpactGrid() {
 
             {/* row 3 col 2: bottom image (community) */}
             <div className="overflow-hidden rounded-2xl ring-1 ring-black/20 min-h-[16rem] sm:min-h-[18rem] lg:min-h-[22rem]">
-              <img src="/src/assets/impact-btm.jpg" alt="Community outreach" className="w-full h-full object-cover" />
+              <img src={impactBottom} alt="Community outreach" className="w-full h-full object-cover" />
             </div>
 
             {/* row 3 col 3: card 05 */}

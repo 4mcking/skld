@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import insightImage from "../assets/insight-img.jpg";
 
 export default function BlogCarousel() {
   const posts = new Array(6).fill(0).map((_, i) => ({
@@ -11,7 +12,7 @@ export default function BlogCarousel() {
       "Case Study: How Flexible Seating Increased Student Collaboration",
       "Thinking Ahead: Future-Proofing School Infrastructure",
     ][i % 6],
-    img: "/src/assets/insight-img.jpg",
+    img: insightImage,
   }));
 
   const containerRef = useRef(null);

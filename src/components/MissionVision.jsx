@@ -1,3 +1,5 @@
+import missionVisionImage from "../assets/msn-vsn.jpg";
+
 export default function MissionVision() {
 	return (
 		<section className="py-6">
@@ -12,11 +14,7 @@ export default function MissionVision() {
 								Driven by Integrity.
 							</h3>
 							<div className="mt-6 overflow-hidden rounded-2xl">
-								<img
-									src="/src/assets/msn-vsn.jpg"
-									alt="Team collaboration"
-									className="w-full h-auto object-cover"
-								/>
+								<img src={missionVisionImage} alt="Team collaboration" className="w-full h-auto object-cover" />
 							</div>
 						</div>
 						{/* Right: mission/vision */}
