@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Poppins, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --color-brand: oklch(56% 0.22 275);
+  --color-brand-600: oklch(52% 0.22 275);
+  --color-brand-700: oklch(46% 0.22 275);
+}
+
+/* Base resets and helpers tailored to the design */
+html, body, #root {
+  @apply h-full;
+}
+body {
+  @apply bg-neutral-50 text-neutral-900 antialiased font-sans;
+  font-feature-settings: "cv02","cv03","cv04","cv11";
+}
+
+/* Constrains the main content width similar to the comps */
+.container-xl {
+  @apply max-w-[1500px] mx-auto px-3 sm:px-4 lg:px-6;
+}
+
+/* Pill button baseline */
+.btn {
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium;
+}
+.btn-primary {
+  @apply bg-neutral-900 text-white hover:bg-neutral-800;
+}
+.btn-outline {
+  @apply border border-neutral-200 bg-white text-neutral-900 hover:bg-neutral-50;
+}
