@@ -42,7 +42,7 @@ export default function ImpactGrid() {
 
             {/* row 2 col 1: left image (manufacturing) */}
             <div className="overflow-hidden rounded-2xl ring-1 ring-black/20 min-h-[16rem] sm:min-h-[18rem] lg:min-h-[22rem]">
-              <img src="/src/assets/imapact-left.jpg" alt="Manufacturing floor" className="w-full h-full object-cover" />
+              <img src="/src/assets/impact-left.jpg" alt="Manufacturing floor" className="w-full h-full object-cover" />
             </div>
 
             {/* row 2 col 2: center card 03 */}
@@ -73,7 +73,7 @@ export default function ImpactGrid() {
 
             {/* row 3 col 2: bottom image (community) */}
             <div className="overflow-hidden rounded-2xl ring-1 ring-black/20 min-h-[16rem] sm:min-h-[18rem] lg:min-h-[22rem]">
-              <img src="/src/assets/imapact-btm.jpg" alt="Community outreach" className="w-full h-full object-cover" />
+              <img src="/src/assets/impact-btm.jpg" alt="Community outreach" className="w-full h-full object-cover" />
             </div>
 
             {/* row 3 col 3: card 05 */}

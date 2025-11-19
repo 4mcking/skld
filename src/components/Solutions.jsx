@@ -1,8 +1,8 @@
 import { useState } from "react";
-import skitLogo from "../assets/skit-store-logo.png";
-import marcelLogo from "../assets/marcel-hughes-logo.png";
-import weaveworxLogo from "../assets/weaveworx-logo.png";
-import skldLogo from "../assets/skld-relief-logo.png";
+import skitLogo from "../assets/skit-store.png";
+import marcelLogo from "../assets/marcel-hughes.png";
+import weaveworxLogo from "../assets/weaveworx.png";
+import skldLogo from "../assets/skld-relief.png";
 
 export default function Solutions() {
 	const [hoveredCard, setHoveredCard] = useState(null);
